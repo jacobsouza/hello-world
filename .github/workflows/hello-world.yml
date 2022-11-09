@@ -5,5 +5,5 @@ on: push
 jobs:
   hello-world:
     runs-on: ubuntu-latest
-    stops:
+    steps:
       - run: echo "GoHacking GHSCD BB 2022!"
