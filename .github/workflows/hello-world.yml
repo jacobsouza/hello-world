@@ -1,0 +1,9 @@
+name: Hello World Action!
+
+on: push
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    stops:
+      - run: echo "GoHacking GHSCD BB 2022!"
